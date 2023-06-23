@@ -1,65 +1,67 @@
-# <Your-Project-Title>
+# Object-Relational Mapping (ORM): E-Commerce Back End
+
+ORM - E-commerce Back End
+
+Git Hub: 
+
+Video Link:
+
+## Badges
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Screenshots](#screenshots) 
+- [License](#license)
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+This project's purpose is to create a database using SQL and Sequilized for an Object Relational Mapping app that stores categories, products and tags in its database.  Using this database, you will be able to create, read, update and delete within the category, products or tags' tables.  
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+You will need to install npm. This will install the mysql, inquirer, dotenv, and express packages as well.  Then you will need to run the npm seeds : "npm run seeds".  You can then run "npm start" to start the app listening to the local host. 
 
 ## Usage
+```md
+To use this app, follow the installation instructions above.  
+Once you start npm by typing in "npm start" in the command line, it will prompt a message saying that it is listening to the localhost:3001. Then you can open up insomnia.
 
-Provide instructions and examples for use. Include screenshots as needed.
+WHEN you GET for the api/categories route, 
+THEN it will display all of the categories in the database
+WHEN you GET from the api/categories with a specific id at the end of the url,
+THEN it will show you only that category that the id belongs to.
+WHEN you POST in the api/categories and enter in fields that pertain to the category model,
+THEN you are able to create a new category into the database.
+WHEN you PUT in the api/categories url with the fields you want to update,
+THEN you are able to update that category's field in the database.
+WHEN you DELETE in the api/categories using a specific id, 
+THEN it will destroy that category with that id.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
+WHEN you GET for the api/products, 
+THEN you will get all of the products listed in the database.
+WHEN you POST in the api/products and enter in fields that pertains to the product model,
+THEN it will add any new products to the products database.  
+   
+```
+## Screenshots
+GET PRODUCTS
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
 
-![alt text](assets/images/screenshot.png)
+GET PRODUCT
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
 
-## Credits
+POST PRODUCT
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
+PUT PRODUCT
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
 
-List your collaborators, if any, with links to their GitHub profiles.
+DELETE PRODUCT
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Please refer to the link below if you need to read the terms and conditions of the license:
+* [MIT license](https://choosealicense.com/licenses/mit/)
