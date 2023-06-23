@@ -2,7 +2,7 @@
 
 ORM - E-commerce Back End
 
-Git Hub: 
+Git Hub: https://github.com/minutemin/ORM-E-commerce-back-end
 
 Video Link:
 
@@ -31,35 +31,53 @@ Once you start npm by typing in "npm start" in the command line, it will prompt 
 
 WHEN you GET for the api/categories route, 
 THEN it will display all of the categories in the database
-WHEN you GET from the api/categories with a specific id at the end of the url,
+WHEN you GET from the api/categories with a specific id entered at the end of the url,
 THEN it will show you only that category that the id belongs to.
 WHEN you POST in the api/categories and enter in fields that pertain to the category model,
-THEN you are able to create a new category into the database.
+THEN you are able to create a new category with those fields into the database.
 WHEN you PUT in the api/categories url with the fields you want to update,
 THEN you are able to update that category's field in the database.
-WHEN you DELETE in the api/categories using a specific id, 
+WHEN you DELETE in the api/categories using a specific id entered at the end of the url, 
 THEN it will destroy that category with that id.
 
-WHEN you GET for the api/products, 
-THEN you will get all of the products listed in the database.
-WHEN you POST in the api/products and enter in fields that pertains to the product model,
-THEN it will add any new products to the products database.  
+WHEN you GET for the api/products route, 
+THEN it will display all of the products in the database
+WHEN you GET from the api/products with a specific id entered at the end of the url,
+THEN it will show you only that product that the id belongs to.
+WHEN you POST in the api/products and enter in fields that pertain to the product model,
+THEN you are able to create a new product with those fields into the database.
+WHEN you PUT in the api/products url with the fields you want to update,
+THEN you are able to update that product's field in the database.
+WHEN you DELETE in the api/products using a specific id entered at the end of the url, 
+THEN it will destroy that product with that id.
+
+WHEN you GET for the api/tags route, 
+THEN it will display all of the tags in the database
+WHEN you GET from the api/tags with a specific id entered at the end of the url,
+THEN it will show you only that tag that the id belongs to.
+WHEN you POST in the api/tags,
+THEN you are able to create a new tag.
+WHEN you PUT in the api/tags url with the fields you want to update,
+THEN you are able to update that tag's field in the database.
+WHEN you DELETE in the api/tags using a specific id entered at the end of the url, 
+THEN it will destroy that tag with that id.
    
 ```
 ## Screenshots
-GET PRODUCTS
-![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
+GET ALL CATEGORIES
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/SS-Get-All-Category.png)
 
-GET PRODUCT
-![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
+GET ALL PRODUCTS
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/SS-Get-All-Products.png)
 
-POST PRODUCT
-![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
-PUT PRODUCT
-![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
+GET ALL TAGS
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/SS-Get-All-Tags.png)
 
-DELETE PRODUCT
-![Screenshot of ORM E-Commerce insomnia in terminal](assets/ORM-Ecommerce-Insomnia-SS.png)
+POST NEW PRODUCT
+![Screenshot of ORM E-Commerce insomnia in terminal](assets/SS-Create-Product.png)
+
+UPDATE PRODUCT
+ ![Screenshot of ORM E-Commerce insomnia in terminal](assets/SS-Update-Product.png)
 
 
 ## License
