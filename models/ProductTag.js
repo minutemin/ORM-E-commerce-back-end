@@ -1,7 +1,8 @@
+// import important parts of sequelize library
 const { Model, DataTypes } = require('sequelize');
-
+// import database connection in config folder
 const sequelize = require('../config/connection');
-
+// Initialize ProductTag model (table) by extending off Sequelize's Model class
 class ProductTag extends Model {}
 
 ProductTag.init(
@@ -37,5 +38,5 @@ ProductTag.init(
     modelName: 'product_tag',
   }
 );
-
+// export ProductTag module
 module.exports = ProductTag;

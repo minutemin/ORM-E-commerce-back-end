@@ -1,7 +1,8 @@
+// require model and datatype parts from sequilize library
 const { Model, DataTypes } = require('sequelize');
-
+// require database connection from config folder
 const sequelize = require('../config/connection.js');
-
+// extend the sequilize model from Tag
 class Tag extends Model {}
 
 Tag.init(
@@ -24,5 +25,5 @@ Tag.init(
     modelName: 'tag',
   }
 );
-
+// export Tag module
 module.exports = Tag;
