@@ -4,7 +4,7 @@ ORM - E-commerce Back End
 
 Git Hub: https://github.com/minutemin/ORM-E-commerce-back-end
 
-Video Link:
+Video Link: https://drive.google.com/file/d/1OjOOAMLYkXuhQT6d5qxGG1IxuyrqJVP1/view
 
 ## Badges
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
